@@ -16,7 +16,7 @@ export default function Navbar() {
 			<Menu/>
 			<nav class="bg-[#E4EAF3]  fixed w-full z-20 top-0 start-0">
 			
-				<div class="max-w-screen-xl flex flex-wrap relative items-center justify-between mx-auto py-4 pl-8 ">
+				<div class="max-w-screen-xl flex flex-wrap relative items-center justify-between mx-auto py-4 pl-[8%] ">
 					<div class="flex md:order-2 space-x-3 md:space-x-0 ">
 						<button
 							data-collapse-toggle="navbar-sticky"
