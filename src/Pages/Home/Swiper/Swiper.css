@@ -1,0 +1,110 @@
+#app { height: 100% }
+html,
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+body {
+
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  
+  
+
+}
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  
+ 
+  
+  
+}
+
+#water img{
+  display: block;
+  width: auto;
+  height: 65vh;
+  z-index:10;
+  
+}
+
+#kuler img{
+  display: block;
+  width: auto;
+  height: 55vh;
+  
+}
+#kuler button{
+  margin-top:50px
+}
+#pompa img{
+  display: block;
+  width: auto;
+  height: 55vh;
+  margin-top:50px
+  
+}
+#pompa button{
+  margin-top:10px
+}
+
+.swiper {
+  width: 100%;
+  height: auto;
+  margin: 94px auto;
+  padding-top:10px;
+  padding-bottom:40px
+  
+}
+#smallScreen{
+  display:none
+}
+
+@media only screen and (max-width: 650px){
+#bigScreen{
+  display:none;
+}
+#smallScreen{
+  display:block;
+  margin: 150px auto;
+  
+}
+#smallScreen #water img{
+  height:55vh;
+}
+#smallScreen #kuler img{
+  height:47vh;
+  margin-bottom:40px;
+}
+#smallScreen #pompa img{
+  height:43vh;
+}
+}
+@media only screen and (max-width: 425px){
+  #smallScreen{
+    display:block;
+    margin: 145px auto;
+    
+  }
+}@media only screen and (max-width: 365px){
+  #smallScreen{
+    display:block;
+    margin: 130px auto;
+    
+  }
+}

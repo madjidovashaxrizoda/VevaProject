@@ -1,0 +1,13 @@
+#DatePicker{
+    color:black;
+    background-color: #F2F4F7;
+padding: 12px 0;
+border-radius:8px;
+padding-inline-start:16px;
+width: 90%
+}
+@media only screen and (max-width: 650px) {
+    #DatePicker{
+    width:83vw;
+    }
+  }
